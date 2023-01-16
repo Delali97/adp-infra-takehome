@@ -2,9 +2,6 @@
 
 
 How to Run
-* How to run test
-    pytest app/home_test.py 
-
 * Build Docker image 
   docker image build -t adp . 
 * Start Container
@@ -19,7 +16,12 @@ Setting the Log Level
 This will show all log lines.
 
 
-* Test Service 
+* Scripts and unit tests for verifying expected behavior 
+
+* How to run unit test
+    pytest app/home_test.py
+
+* CURL REQUESTS
 *  Sending GET request with accept header NOT SET
 
     -> curl --location --request GET 'localhost:5001/' 
