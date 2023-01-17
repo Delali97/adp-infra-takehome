@@ -1,27 +1,27 @@
 # adp-infra-takehome
 
 
-How to Run
+## How to Run
 * Build Docker image 
   docker image build -t adp . 
 * Start Container
-    docker run -p 5001:5001 -d --name adp_container adp
+    `docker run -p 5001:5001 -d --name adp_container adp`
 
-How to tear down container
-    docker stop adp_container && docker rm adp_container
+## How to tear down container
+    `docker stop adp_container && docker rm adp_container`
 
 
-Setting the Log Level
+## Setting the Log Level
 - To display the debug logs set the logging level on line 12 in app.py from logging.INFO to logging.DEBUG. 
 This will show all log lines.
 
 
-Scripts and unit tests for verifying expected behavior 
+## Scripts and Unit tests for verifying expected behavior 
 
 * How to run unit test
     pytest app/HelloWorld_test.py
 
-CURL REQUESTS
+## CURL REQUESTS
 *  Sending GET request with accept header NOT SET
 
     -> curl --location --request GET 'localhost:5001/' 
