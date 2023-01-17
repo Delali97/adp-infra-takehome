@@ -25,11 +25,11 @@ def hello_world():
             # Returns json 'hello world' when accept header = 'application/json'
             if request.headers.get('Accept') == 'application/json':
                 app.logger.debug("request url:" + request.url + "Recieved an Accept Header='application/json'")
-                return jsonify({'message': 'Hello, World!'}) 
+                return jsonify({'message': 'Hello, World'}) 
                
-            else :
-                app.logger.debug("request url:" + request.url + "Accept Header Is Empty")
-                return '<p>Hello, World</p>'
+        else :
+            app.logger.debug("request url:" + request.url + "Accept Header Is Empty")
+            return '<p>Hello, World</p>'
     elif request.method == 'POST':
         #This is an empty POST request
         app.logger.debug("request url:" + request.url + "Empty POST request")

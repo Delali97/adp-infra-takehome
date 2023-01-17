@@ -24,7 +24,7 @@ def test_post_home(client: FlaskClient):
 def test_no_accept_header(client: FlaskClient):
     """a request with header.accept not json/application should return a byte 'Hello, World"""
     resp = client.get('/')
-    assert "Hello, World" in resp.data
+    assert b"Hello, World" in resp.data
     
 
 

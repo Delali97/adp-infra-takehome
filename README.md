@@ -19,7 +19,7 @@ This will show all log lines.
 * Scripts and unit tests for verifying expected behavior 
 
 * How to run unit test
-    pytest app/home_test.py
+    pytest app/HelloWorld_test.py
 
 * CURL REQUESTS
 *  Sending GET request with accept header NOT SET
