@@ -26,7 +26,8 @@ def hello_world():
             if request.headers.get('Accept') == 'application/json':
                 app.logger.debug("request url:" + request.url + "Recieved an Accept Header='application/json'")
                 return jsonify({'message': 'Hello, World'}) 
-               
+            else:
+                return '<p>Hello, World</p>'    
         else :
             app.logger.debug("request url:" + request.url + "Accept Header Is Empty")
             return '<p>Hello, World</p>'

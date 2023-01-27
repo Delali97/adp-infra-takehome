@@ -1,0 +1,111 @@
+2023-01-27 13:49:01,400 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.9.42:5001
+2023-01-27 13:49:01,400 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-27 13:49:01,401 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 13:49:01,588 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 13:49:01,659 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 13:50:54,124 INFO werkzeug Thread-3 : 76.68.189.244 - - [27/Jan/2023 13:50:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-27 13:50:55,085 INFO werkzeug Thread-2 : 76.68.189.244 - - [27/Jan/2023 13:50:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-01-27 13:50:55,118 INFO werkzeug Thread-4 : 76.68.189.244 - - [27/Jan/2023 13:50:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-01-27 13:50:56,366 INFO werkzeug Thread-5 : 76.68.189.244 - - [27/Jan/2023 13:50:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-01-27 13:50:58,043 INFO werkzeug Thread-6 : 76.68.189.244 - - [27/Jan/2023 13:50:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-01-27 13:54:06,987 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/app.py', reloading
+2023-01-27 13:54:07,012 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 13:55:14,835 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.9.42:5001
+2023-01-27 13:55:14,835 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-27 13:55:14,836 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 13:55:15,022 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 13:55:15,023 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 13:55:28,088 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/app.py', reloading
+2023-01-27 13:55:28,113 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 13:55:32,710 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.9.42:5001
+2023-01-27 13:55:32,710 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-27 13:55:32,710 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 13:55:32,891 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 13:55:32,892 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 13:55:50,976 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/app.py', reloading
+2023-01-27 13:55:51,000 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:00:40,358 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.9.42:5001
+2023-01-27 14:00:40,358 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-27 14:00:40,359 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:00:40,540 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:00:40,540 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:01:32,773 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/app.py', reloading
+2023-01-27 14:01:32,798 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:01:32,982 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:01:32,982 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:02:29,229 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/app.py', reloading
+2023-01-27 14:02:29,253 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:02:29,434 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:02:29,435 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:02:35,469 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/app.py', reloading
+2023-01-27 14:02:35,494 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:02:35,680 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:02:35,681 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:03:27,886 INFO werkzeug Thread-2 : 76.68.189.244 - - [27/Jan/2023 14:03:27] "GET / HTTP/1.1" 200 -
+2023-01-27 14:05:33,439 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/app.py', reloading
+2023-01-27 14:05:33,465 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:05:33,649 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:05:33,649 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:05:36,425 INFO werkzeug Thread-2 : 76.68.189.244 - - [27/Jan/2023 14:05:36] "GET / HTTP/1.1" 200 -
+2023-01-27 14:07:06,929 INFO werkzeug Thread-3 : 76.68.189.244 - - [27/Jan/2023 14:07:06] "GET / HTTP/1.1" 200 -
+2023-01-27 14:07:08,849 INFO werkzeug Thread-4 : 76.68.189.244 - - [27/Jan/2023 14:07:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-01-27 14:20:20,729 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:20:20,756 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:20:20,945 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:20:20,946 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:21:12,242 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:21:12,267 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:21:12,449 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:21:12,449 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:23:17,162 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:23:17,188 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:23:17,375 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:23:17,375 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:23:31,464 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:23:31,491 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:23:31,677 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:23:31,678 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:24:58,173 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:24:58,197 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:24:58,378 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:24:58,378 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:25:34,590 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:25:34,615 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:25:34,802 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:25:34,803 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:25:38,836 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:25:38,861 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:25:39,046 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:25:39,047 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:25:45,091 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:25:45,117 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:25:45,301 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:25:45,302 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:26:45,657 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/.local/lib/python3.8/site-packages/flask_testing/utils.py', reloading
+2023-01-27 14:26:45,684 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:26:45,881 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:26:45,881 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:27:38,193 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:27:38,218 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:27:38,399 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:27:38,400 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:29:03,910 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:29:03,936 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:29:04,124 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:29:04,124 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
+2023-01-27 14:29:07,152 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/HelloWorld_test.py', reloading
+2023-01-27 14:29:07,177 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-27 14:29:07,360 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-27 14:29:07,360 INFO werkzeug MainThread :  * Debugger PIN: 853-427-168
