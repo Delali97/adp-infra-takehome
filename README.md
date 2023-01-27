@@ -3,7 +3,7 @@
 
 ## How to Run
 * Build Docker image 
-  docker image build -t adp . 
+    `docker image build -t adp . `
 * Start Container
     `docker run -p 5001:5001 -d --name adp_container adp`
 
