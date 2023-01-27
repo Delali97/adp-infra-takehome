@@ -1,0 +1,1096 @@
+[
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": "18.206.60.109",
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "Qubole-non-data-access-role"
+            },
+            "node_bootstrap_file": "airflow_bootstrap.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": false,
+            "python_version": "2.7.16",
+            "tunnel_server_ip": null,
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": null,
+                "datadog_app_token": null
+            },
+            "disallow_cluster_termination": true,
+            "state": "UP",
+            "hadoop_version": "2.3-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": null,
+                "master_instance_type": "m5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "max_nodes": 1,
+                "use_spark": false,
+                "slave_instance_type": "",
+                "slave_request_type": "ondemand",
+                "custom_config": null,
+                "use_hadoop2": true
+            },
+            "label": [
+                "airflow_prerelease"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 86492,
+            "engine_config": {
+                "overrides": "core.load_examples=False\ncore.dags_are_paused_at_creation=False\nautodesk.adp_CLUSTER=stg\nautodesk.adp_AWS_ACCOUNT_ID=123456789012\nautodesk.adp_QUBOLE_ACCOUNT=stg.etl",
+                "airflow_version": "2.7",
+                "version": "1.10.0",
+                "dbtap_id": -1,
+                "type": "airflow",
+                "fernet_key": "awfergrbie3445RIVRxkbrlars="
+            },
+            "zeppelin_interpreter_mode": "legacy"
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": "3.219.154.155",
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "Qubole-non-data-access-role"
+            },
+            "node_bootstrap_file": "airflow_bootstrap.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": false,
+            "python_version": "2.7.16",
+            "tunnel_server_ip": null,
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": null,
+                "datadog_app_token": null
+            },
+            "disallow_cluster_termination": true,
+            "state": "UP",
+            "hadoop_version": "2.3-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": null,
+                "master_instance_type": "m5.2xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "max_nodes": 1,
+                "use_spark": false,
+                "slave_instance_type": "",
+                "slave_request_type": "ondemand",
+                "custom_config": null,
+                "use_hadoop2": true
+            },
+            "label": [
+                "airflow2"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 90645,
+            "engine_config": {
+                "overrides": "core.load_examples=False\ncore.dags_are_paused_at_creation=False\nautodesk.adp_CLUSTER=stg\nautodesk.adp_AWS_ACCOUNT_ID=123456789012\nautodesk.adp_QUBOLE_ACCOUNT=stg.adp.us-east-1",
+                "airflow_version": "2.7",
+                "version": "1.10.0",
+                "dbtap_id": 4924,
+                "type": "airflow",
+                "fernet_key": "SSNta4uZmMYCsSHFEuoH8vurr5tLwgxCA2q/8Z8l+A4="
+            },
+            "zeppelin_interpreter_mode": null
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "adp-qubole-stg-cluster-instance-profile"
+            },
+            "node_bootstrap_file": "node_bootstrap.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "2.7.16",
+            "tunnel_server_ip": null,
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "UP",
+            "hadoop_version": "2.3-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "c5.4xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 2,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 5,
+                "use_spark": false,
+                "slave_instance_type": "m5.8xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.CLUSTER_TYPE=presto\nadp.AWS_ACCOUNT_ID=123456789012\nadp.QUBOLE_ACCOUNT=stg.etl\nadp.CLUSTER=stg\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.RANGER_SERVICE=Lumos_hive\nadp.RANGER_URL=https://ambari-stg.foo.bar.baz.example.com:6080/\nadp.SOLR_URL=https://ambari-stg.foo.bar.baz.example.com:8886/solr/ranger_audits",
+                "use_hadoop2": true
+            },
+            "label": [
+                "presto-looker",
+                "presto-powerbi",
+                "presto",
+                "IAE_GENERAL_PRESTO208"
+            ],
+            "presto_settings": {
+                "custom_config": "config.properties:\noptimizer.optimize-metadata-queries=true\njoin-distribution-type=AUTOMATIC\noptimizer.join-reordering-strategy=AUTOMATIC\noptimizer.dictionary-aggregation=true\nexperimental.dynamic-filtering-enabled=true\nexperimental.iterative-optimizer-timeout=10.00m\nascm.downscaling.staggered=true\nenable-file-size-stats-join-type=true\nenable-file-size-stats-join-reorder=true\nretry.autoRetry=true\ncatalog/hive.properties:\nhive.recursive-directories=true\nhive.parquet.use-column-names=true\nhive.parquet-optimized-reader.enabled=true\nhive.parquet-predicate-pushdown.enabled=true\nhive.information-schema-presto-view-only=false\nhive.metastore-cache-ttl-bulk=24h\nhive.bucket-owner-full-control=true\nhive.metastore-cache-ttl=10m\nhive.metastore-refresh-interval=5m\naccess-control.properties:\naccess-control.name=ranger-access-control\nranger.username=admin\nranger.password=RANGER_PASS\nranger.hive.security-config-xml=/usr/lib/presto/etc/hive-ranger-ssl.xml\nranger.hive.audit-config-xml=/usr/lib/presto/etc/ranger-hive-audit.xml",
+                "enable_presto": true
+            },
+            "cluster_id": 102707,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": null
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "adp-qubole-stg-cluster-instance-profile"
+            },
+            "node_bootstrap_file": "node_bootstrap.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "2.7.16",
+            "tunnel_server_ip": null,
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": true,
+            "state": "DOWN",
+            "hadoop_version": "2.3-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "m5a.2xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 2,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 15,
+                "use_spark": false,
+                "slave_instance_type": "m5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.CLUSTER=stg\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.AWS_ACCOUNT_ID=123456789012\nadp.QUBOLE_ACCOUNT=stg.etl\nadp.CLUSTER_TYPE=hive\nadp.TARGET_GROUP_ARN=arn:aws:elasticloadbalancing:us-east-1:123456789012:targetgroup/adp-explore/178c5e2d29e195db\nadp.LOAD_BALANCER_ID=adp-fast-access\nadp.SOLR_HOST=https://ambari-stg.foo.bar.baz.example.com\nadp.RANGER_ADMIN_HOST=https://ambari-stg.foo.bar.baz.example.com\nadp.REPOSITORY_NAME=Lumos_hive\nyarn.resourcemanager.app.timeout.minutes=720",
+                "use_hadoop2": true
+            },
+            "label": [
+                "HIVE23-FA-2"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 102865,
+            "engine_config": {
+                "type": "hadoop2",
+                "hive_settings": {
+                    "pig_version": "0.11",
+                    "execution_engine": null,
+                    "overrides": "hive.exec.compress.output=true\nhive.exec.compress.intermediate=true\nmapreduce.output.fileoutputformat.compress.codec=org.apache.hadoop.io.compress.Lz4Codec\navro.output.codec=snappy\nparquet.compression=SNAPPY\nhive.exec.mode.local.auto=true\nhive.fetch.task.aggr=true\nhive.fetch.task.conversion=minimal\nhive.mapred.supports.subdirectories=true\nmapred.input.dir.recursive=true\nhive.archive.enabled=true\nhive.optimize.index.filter=true\nhive.optimize.sort.dynamic.partition=true\nhive.compute.query.using.stats=false\nhive.cbo.enable=true\nhive.query.result.fileformat=SequenceFile\nhive.vectorized.execution.enabled=false\nhive.vectorized.execution.reduce.enabled=false\nhive.resultset.use.unique.column.names=false\nhive.support.concurrency=false\nparquet.block.size=67108864\nfs.trash.interval=0\nhive.tez.auto.reducer.parallelism=true\nhive.log.explain.output=true\nhive.stats.fetch.column.stats=true\nhive.tez.exec.print.summary=true\nhive.input.format=org.apache.hadoop.hive.ql.io.HiveInputFormat\nhive.server2.authentication=LDAP\nhive.server2.authentication.ldap.url=ldaps://ldap-east.autodesk.com:3269\nhive.server2.authentication.ldap.Domain=ads\nhive.server2.keystore.path=/usr/lib/hive1.2/conf/fastaccess-stg.foo.bar.baz.example.com.jks\nhive.server2.keystore.password=fa-stg\nhive.server2.use.SSL=true\nhive.metastore.warehouse.dir=s3://com.autodesk.edl.stg.us-east-1/apps/hive/warehouse\nhive.merge.tezfiles=true\nhive.stats.autogather=true\nhive.server2.thrift.max.worker.threads=500\nhive.server2.metrics.enabled=true\nhive.metastore.metrics.enabled=true\nhive.strict.checks.type.safety=false\nhive.server2.session.check.interval=3h\nhive.server2.idle.session.timeout=6h\nhive.server2.idle.operation.timeout=3h\nhive.server2.thrift.min.worker.threads=30",
+                    "hs2_thrift_port": 10008,
+                    "is_metadata_cache_enabled": false,
+                    "hive_version": "2.3",
+                    "is_hs2": true,
+                    "pig_execution_engine": "mr"
+                }
+            },
+            "zeppelin_interpreter_mode": null
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "adp-qubole-stg-cluster-instance-profile"
+            },
+            "node_bootstrap_file": "node_bootstrap.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "2.7.16",
+            "tunnel_server_ip": null,
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": true,
+            "state": "UP",
+            "hadoop_version": "2.3-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "m5a.2xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 2,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 15,
+                "use_spark": false,
+                "slave_instance_type": "m5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.CLUSTER=stg\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.AWS_ACCOUNT_ID=123456789012\nadp.QUBOLE_ACCOUNT=stg.etl\nadp.CLUSTER_TYPE=hive\nadp.TARGET_GROUP_ARN=arn:aws:elasticloadbalancing:us-east-1:123456789012:targetgroup/adp-explore/178c5e2d29e195db\nadp.LOAD_BALANCER_ID=adp-fast-access\nadp.SOLR_HOST=https://ambari-stg.foo.bar.baz.example.com\nadp.RANGER_ADMIN_HOST=https://ambari-stg.foo.bar.baz.example.com\nadp.REPOSITORY_NAME=Lumos_hive\nyarn.resourcemanager.app.timeout.minutes=720",
+                "use_hadoop2": true
+            },
+            "label": [
+                "HIVE23-FA"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 102869,
+            "engine_config": {
+                "type": "hadoop2",
+                "hive_settings": {
+                    "pig_version": "0.11",
+                    "execution_engine": null,
+                    "overrides": "hive.exec.compress.output=true\nhive.exec.compress.intermediate=true\nmapreduce.output.fileoutputformat.compress.codec=org.apache.hadoop.io.compress.Lz4Codec\navro.output.codec=snappy\nparquet.compression=SNAPPY\nhive.exec.mode.local.auto=true\nhive.fetch.task.aggr=true\nhive.fetch.task.conversion=minimal\nhive.mapred.supports.subdirectories=true\nmapred.input.dir.recursive=true\nhive.archive.enabled=true\nhive.optimize.index.filter=true\nhive.optimize.sort.dynamic.partition=true\nhive.compute.query.using.stats=false\nhive.cbo.enable=true\nhive.query.result.fileformat=SequenceFile\nhive.vectorized.execution.enabled=false\nhive.vectorized.execution.reduce.enabled=false\nhive.resultset.use.unique.column.names=false\nhive.support.concurrency=false\nparquet.block.size=67108864\nfs.trash.interval=0\nhive.tez.auto.reducer.parallelism=true\nhive.log.explain.output=true\nhive.stats.fetch.column.stats=true\nhive.tez.exec.print.summary=true\nhive.input.format=org.apache.hadoop.hive.ql.io.HiveInputFormat\nhive.server2.authentication=LDAP\nhive.server2.authentication.ldap.url=ldaps://ldap-east.autodesk.com:3269\nhive.server2.authentication.ldap.Domain=ads\nhive.server2.keystore.path=/usr/lib/hive1.2/conf/fastaccess-stg.foo.bar.baz.example.com.jks\nhive.server2.keystore.password=fa-stg\nhive.server2.use.SSL=true\nhive.metastore.warehouse.dir=s3://com.autodesk.edl.stg.us-east-1/apps/hive/warehouse\nhive.merge.tezfiles=true\nhive.stats.autogather=true\nhive.server2.thrift.max.worker.threads=500\nhive.server2.metrics.enabled=true\nhive.metastore.metrics.enabled=true\nhive.strict.checks.type.safety=false\nhive.server2.session.check.interval=3h\nhive.server2.idle.session.timeout=6h\nhive.server2.idle.operation.timeout=3h\nhive.server2.thrift.min.worker.threads=30",
+                    "hs2_thrift_port": 10008,
+                    "is_metadata_cache_enabled": false,
+                    "hive_version": "2.3",
+                    "is_hs2": true,
+                    "pig_execution_engine": "mr"
+                }
+            },
+            "zeppelin_interpreter_mode": null
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "adp-qubole-stg-cluster-instance-profile"
+            },
+            "node_bootstrap_file": "",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "3.7.4",
+            "tunnel_server_ip": null,
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "DOWN",
+            "hadoop_version": "2.3-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "m5a.2xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 20,
+                "use_spark": false,
+                "slave_instance_type": "m5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.CLUSTER=stg\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.AWS_ACCOUNT_ID=123456789012\nadp.QUBOLE_ACCOUNT=stg.etl\nadp.CLUSTER_TYPE=hive\nadp.SOLR_HOST=ambari-stg.foo.bar.baz.example.com\nadp.RANGER_ADMIN_HOST=ambari-stg.foo.bar.baz.example.com\nadp.REPOSITORY_NAME=Lumos_hive\nyarn.resourcemanager.app.timeout.minutes=720",
+                "use_hadoop2": true
+            },
+            "label": [
+                "HIVE-MAINT",
+                "HIVE23-MAINT"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 102870,
+            "engine_config": {
+                "type": "hadoop2",
+                "hive_settings": {
+                    "pig_version": "0.11",
+                    "execution_engine": null,
+                    "overrides": "hive.exec.compress.output=true\nhive.exec.compress.intermediate=true\nmapreduce.output.fileoutputformat.compress.codec=org.apache.hadoop.io.compress.Lz4Codec\navro.output.codec=snappy\nparquet.compression=SNAPPY\nhive.exec.mode.local.auto=true\nhive.fetch.task.aggr=true\nhive.fetch.task.conversion=minimal\nhive.mapred.supports.subdirectories=true\nmapred.input.dir.recursive=true\nhive.archive.enabled=true\nhive.compute.query.using.stats=false\nhive.optimize.index.filter=true\nhive.optimize.sort.dynamic.partition=true\nhive.cbo.enable=true\nhive.query.result.fileformat=SequenceFile\nhive.vectorized.execution.enabled=false\nhive.vectorized.execution.reduce.enabled=false\nhive.resultset.use.unique.column.names=false\nhive.support.concurrency=false\nparquet.block.size=67108864\nfs.trash.interval=0\nhive.tez.auto.reducer.parallelism=true\nhive.log.explain.output=true\nhive.stats.fetch.column.stats=true\nhive.tez.exec.print.summary=true\nhive.metastore.warehouse.dir=s3://com.autodesk.edl.stg.us-east-1/apps/hive/warehouse\nhive.merge.tezfiles=true\nhive.stats.autogather=true\nhive.server2.thrift.max.worker.threads=500\nhive.server2.metrics.enabled=true\nhive.metastore.metrics.enabled=true\nhive.strict.checks.type.safety=false\nhive.server2.session.check.interval=1h\nhive.server2.idle.session.timeout=2h\nhive.server2.idle.operation.timeout=1h\nhive.server2.thrift.min.worker.threads=30",
+                    "hs2_thrift_port": 10003,
+                    "is_metadata_cache_enabled": true,
+                    "hive_version": "2.3",
+                    "is_hs2": true,
+                    "pig_execution_engine": "mr"
+                }
+            },
+            "zeppelin_interpreter_mode": null
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "Qubole-PA-ETL-enriched-raw-role"
+            },
+            "node_bootstrap_file": "initSpark2.1.1.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "3.7.4",
+            "tunnel_server_ip": "23.21.156.210",
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "UP",
+            "hadoop_version": "2.2-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "r5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 15,
+                "use_spark": true,
+                "slave_instance_type": "r5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.AWS_ACCOUNT_ID=123456789012\nadp.QUBOLE_ACCOUNT=stg.etl\nadp.CLUSTER=stg\nfs.s3a.acl.default=BucketOwnerFullControl\nyarn.resourcemanager.aggressive.log.aggregation.enabled=true\nadp.INSTALL_HVAC_CX_ORACLE=true\nadp.PEPPERDATA_TAG=autodesk-enrich-stage-etl\nadp.PEPPERDATA_RPM=PepperdataSupervisor-6.1.6-H26_YARN2.rpm\nyarn.app.mapreduce.am.env=LD_LIBRARY_PATH=/usr/lib/hadoop2/lib/native:/instantclient_12_2\nmapreduce.fileoutputcommitter.marksuccessfuljobs=false\nyarn.resourcemanager.app.timeout.minutes=720",
+                "use_hadoop2": true
+            },
+            "label": [
+                "ETL-enrich-Pepper-Data",
+                "ETL-enrich",
+                "ETL-enrich-new",
+                "PA-ETL-Enriched-IAM-TEST",
+                "ETL_ENRICH_NEW"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 103224,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": "user"
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "adp-qubole-stg-cluster-instance-profile"
+            },
+            "node_bootstrap_file": "initSpark2.1.1.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "3.7.4",
+            "tunnel_server_ip": null,
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "DOWN",
+            "hadoop_version": "2.3-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "r5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 2,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 10,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 8,
+                "use_spark": true,
+                "slave_instance_type": "r5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.AWS_ACCOUNT_ID=123456789012\nadp.CLUSTER_TYPE=spark\nadp.QUBOLE_ACCOUNT=stg.etl\nadp.QUBOLE_ACCOUNT_ID=4793",
+                "use_hadoop2": true
+            },
+            "label": [
+                "ETL-23-to-be-deleted"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 103229,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": "legacy"
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "adp-qubole-stg-cluster-instance-profile"
+            },
+            "node_bootstrap_file": "node_bootstrap.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "3.7.4",
+            "tunnel_server_ip": "23.21.156.210",
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "UP",
+            "hadoop_version": "1.6.2",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "r5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 23,
+                "use_spark": true,
+                "slave_instance_type": "r5.2xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.AWS_ACCOUNT_ID=123456789012\nadp.QUBOLE_ACCOUNT=stg.etl\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.CLUSTER=stg\nadp.CLUSTER_TYPE=spark\nadp.INSTALL_PEPPERDATA=true\ndfs.namenode.rpc-bind-host=0.0.0.0\ndfs.namenode.http-bind-host=0.0.0.0\ndfs.namenode.https-bind-host=0.0.0.0\nyarn.resourcemanager.bind-host=0.0.0.0\nyarn.resourcemanager.app.timeout.minutes=720\nfs.s3a.acl.default=BucketOwnerFullControl\nadp.INSTALL_HVAC_CX_ORACLE=true\nyarn.app.mapreduce.am.env=LD_LIBRARY_PATH=/usr/lib/hadoop2/lib/native:/instantclient_12_2\ndfs.namenode.replication.max-streams=3\ndfs.namenode.replication.work.multiplier.per.iteration=4\nfs.s3n.awsSecretAccessKey=3JOP1unXNKcB3wc+foo\nfs.s3n.awsAccessKeyId=foo\nfs.s3.awsSecretAccessKey=3JOP1unXNKcB3wc+foo\nfs.s3.awsAccessKeyId=foo",
+                "use_hadoop2": true
+            },
+            "label": [
+                "ETL-16-New-0904",
+                "ETL",
+                "ETL-16",
+                "ETL-stg",
+                "ETL-16-pepperdata"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 103453,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": "user"
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "Qubole-PA-ETL-role"
+            },
+            "node_bootstrap_file": "initSpark2.1.1.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "3.7.4",
+            "tunnel_server_ip": "23.21.156.210",
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "UP",
+            "hadoop_version": "2.4-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "r5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 20,
+                "use_spark": true,
+                "slave_instance_type": "r5.2xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.AWS_ACCOUNT_ID=123456789012\nadp.CLUSTER=stg\nadp.CLUSTER_TYPE=spark\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.INSTALL_HVAC_CX_ORACLE=true\nadp.PEPPERDATA_TAG=autodesk-pa-stage-etl\nadp.PEPPERDATA_RPM=PepperdataSupervisor-6.1.6-H26_YARN2.rpm\nyarn.app.mapreduce.am.env=LD_LIBRARY_PATH=/usr/lib/hadoop2/lib/native:/instantclient_12_2",
+                "use_hadoop2": true
+            },
+            "label": [
+                "PA-ETL-24",
+                "ETL-ADPPA-24",
+                "ETL-ADPPA"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 104154,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": "user"
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "Qubole-BSD-ETL"
+            },
+            "node_bootstrap_file": "initSpark2.1.1.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "3.7.4",
+            "tunnel_server_ip": "23.21.156.210",
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "DOWN",
+            "hadoop_version": "2.4-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "r5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 30,
+                "use_spark": true,
+                "slave_instance_type": "r5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.AWS_ACCOUNT_ID=123456789012\nadp.CLUSTER=stg\nadp.CLUSTER_TYPE=spark\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.INSTALL_HVAC_CX_ORACLE=true\nadp.PEPPERDATA_TAG=autodesk-bsd-stage-etl\nadp.PEPPERDATA_RPM=PepperdataSupervisor-6.1.6-H26_YARN2.rpm\nyarn.app.mapreduce.am.env=LD_LIBRARY_PATH=/usr/lib/hadoop2/lib/native:/instantclient_12_2\nyarn.resourcemanager.app.timeout.minutes=720",
+                "use_hadoop2": true
+            },
+            "label": [
+                "ETL24-OLD"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 104318,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": "user"
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "Qubole-Green-Transform"
+            },
+            "node_bootstrap_file": "initSpark2.1.1.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "3.7.4",
+            "tunnel_server_ip": "23.21.156.210",
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "UP",
+            "hadoop_version": "2.4-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "r5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 20,
+                "use_spark": true,
+                "slave_instance_type": "r5.2xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.AWS_ACCOUNT_ID=123456789012\nadp.CLUSTER=stg\nadp.CLUSTER_TYPE=spark\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.INSTALL_HVAC_CX_ORACLE=true\nadp.PEPPERDATA_TAG=autodesk-green-stage-etl\nadp.PEPPERDATA_RPM=PepperdataSupervisor-6.1.6-H26_YARN2.rpm\nyarn.app.mapreduce.am.env=LD_LIBRARY_PATH=/usr/lib/hadoop2/lib/native:/instantclient_12_2",
+                "use_hadoop2": true
+            },
+            "label": [
+                "ETL_GREEN_SPARK24_STG",
+                "GREEN-TRANSFORM-IAM-TEST"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 104447,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": "user"
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "adp-qubole-stg-cluster-instance-profile"
+            },
+            "node_bootstrap_file": "node_bootstrap_hive_maint.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "2.7.16",
+            "tunnel_server_ip": null,
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "DOWN",
+            "hadoop_version": "2.3-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "m5a.2xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 5,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 20,
+                "use_spark": false,
+                "slave_instance_type": "m5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.CLUSTER=stg\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.AWS_ACCOUNT_ID=123456789012\nadp.QUBOLE_ACCOUNT=stg.etl\nadp.CLUSTER_TYPE=hive\nadp.SOLR_HOST=ambari-stg.foo.bar.baz.example.com\nadp.RANGER_ADMIN_HOST=ambari-stg.foo.bar.baz.example.com\nadp.REPOSITORY_NAME=Lumos_hive\nyarn.resourcemanager.app.timeout.minutes=720",
+                "use_hadoop2": true
+            },
+            "label": [
+                "HIVE-JOE"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 104728,
+            "engine_config": {
+                "type": "hadoop2",
+                "hive_settings": {
+                    "pig_version": "0.11",
+                    "execution_engine": null,
+                    "overrides": "hive.exec.compress.output=true\nhive.exec.compress.intermediate=true\nmapreduce.output.fileoutputformat.compress.codec=org.apache.hadoop.io.compress.Lz4Codec\navro.output.codec=snappy\nparquet.compression=SNAPPY\nhive.exec.mode.local.auto=true\nhive.fetch.task.aggr=true\nhive.fetch.task.conversion=minimal\nhive.mapred.supports.subdirectories=true\nmapred.input.dir.recursive=true\nhive.archive.enabled=true\nhive.compute.query.using.stats=false\nhive.optimize.index.filter=true\nhive.optimize.sort.dynamic.partition=true\nhive.cbo.enable=true\nhive.query.result.fileformat=SequenceFile\nhive.vectorized.execution.enabled=false\nhive.vectorized.execution.reduce.enabled=false\nhive.resultset.use.unique.column.names=false\nhive.support.concurrency=false\nparquet.block.size=67108864\nfs.trash.interval=0\nhive.tez.auto.reducer.parallelism=true\nhive.log.explain.output=true\nhive.stats.fetch.column.stats=true\nhive.tez.exec.print.summary=true\nhive.metastore.warehouse.dir=s3://com.autodesk.edl.stg.us-east-1/apps/hive/warehouse\nhive.merge.tezfiles=true\nhive.stats.autogather=true\nhive.server2.thrift.max.worker.threads=500\nhive.server2.metrics.enabled=true\nhive.metastore.metrics.enabled=true\nhive.strict.checks.type.safety=false\nhive.server2.session.check.interval=1h\nhive.server2.idle.session.timeout=2h\nhive.server2.idle.operation.timeout=1h\nhive.server2.thrift.min.worker.threads=30",
+                    "hs2_thrift_port": 10003,
+                    "is_metadata_cache_enabled": true,
+                    "hive_version": "2.3",
+                    "is_hs2": true,
+                    "pig_execution_engine": "mr"
+                }
+            },
+            "zeppelin_interpreter_mode": null
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "Qubole-BSD-ETL"
+            },
+            "node_bootstrap_file": "initSpark2.1.1.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "2.7.16",
+            "tunnel_server_ip": "23.21.156.210",
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "UP",
+            "hadoop_version": "2.4-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "r5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 1,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 20,
+                "use_spark": true,
+                "slave_instance_type": "r5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.AWS_ACCOUNT_ID=123456789012\nadp.CLUSTER=stg\nadp.CLUSTER_TYPE=spark\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.INSTALL_HVAC_CX_ORACLE=true\nadp.PEPPERDATA_TAG=autodesk-bsd-stage-etl\nadp.PEPPERDATA_RPM=PepperdataSupervisor-6.1.6-H26_YARN2.rpm\nyarn.app.mapreduce.am.env=LD_LIBRARY_PATH=/usr/lib/hadoop2/lib/native:/instantclient_12_2\nyarn.resourcemanager.app.timeout.minutes=720",
+                "use_hadoop2": true
+            },
+            "label": [
+                "default",
+                "ETL-24",
+                "GDPR-spark24",
+                "BSD-ETL-24-IAM-TEST",
+                "GDPR-24-migrate",
+                "ETL-23",
+                "ETL_SPARK_STG23"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 105892,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": "user"
+        }
+    },
+    {
+        "cluster": {
+            "ec2_settings": {
+                "use_account_compute_creds": true,
+                "compute_external_id": "GQZDSMLJNBTGOZLB",
+                "subnet_id": "subnet-dai234incrandom123,subnet-12sderincrandom123",
+                "aws_preferred_availability_zone": "Any",
+                "aws_region": "us-east-1",
+                "bastion_node_user": "ec2-user",
+                "instance_tenancy": null,
+                "compute_role_arn": "arn:aws:iam::123456789012:role/adp-qubole-stg-account-role",
+                "bastion_node_port": 22,
+                "compute_validated": true,
+                "vpc_id": "vpc-d23456o1",
+                "master_elastic_ip": null,
+                "bastion_node_public_dns": "qubole-bastion-stg-1234000000abcdefg.elb.us-east-1.amazonaws.com",
+                "role_instance_profile": "Qubole-BSD-ETL"
+            },
+            "node_bootstrap_file": "initSpark2.1.1.sh",
+            "spark_s3_package_name": null,
+            "enable_ganglia_monitoring": true,
+            "python_version": "2.7.16",
+            "tunnel_server_ip": "23.21.156.210",
+            "zeppelin_s3_package_name": null,
+            "datadog_settings": {
+                "datadog_api_token": "1234569784045kf9457a31",
+                "datadog_app_token": "1234569784045kf9457a311239475e"
+            },
+            "disallow_cluster_termination": false,
+            "state": "DOWN",
+            "hadoop_version": "2.4-latest",
+            "force_tunnel": true,
+            "security_settings": {
+                "customer_ssh_key": "ssh-rsa somerandomvalue1234drghtithviticssvasfoobarbaz",
+                "encrypted_ephemerals": false,
+                "persistent_security_groups": "QubolePersistentSG"
+            },
+            "hadoop_settings": {
+                "use_hbase": false,
+                "master_instance_type": "r5a.xlarge",
+                "fairscheduler_settings": {
+                    "default_pool": null
+                },
+                "initial_nodes": 1,
+                "spot_instance_settings": {
+                    "maximum_spot_instance_percentage": 50,
+                    "timeout_for_request": 1,
+                    "maximum_bid_price_percentage": "100.0"
+                },
+                "max_nodes": 20,
+                "use_spark": true,
+                "slave_instance_type": "r5.4xlarge",
+                "slave_request_type": "hybrid",
+                "custom_config": "adp.AWS_ACCOUNT_ID=123456789012\nadp.CLUSTER=stg\nadp.CLUSTER_TYPE=spark\nadp.QUBOLE_ACCOUNT_ID=4793\nadp.INSTALL_HVAC_CX_ORACLE=true\nadp.PEPPERDATA_TAG=autodesk-bsd-stage-etl\nadp.PEPPERDATA_RPM=PepperdataSupervisor-6.1.6-H26_YARN2.rpm\nyarn.app.mapreduce.am.env=LD_LIBRARY_PATH=/usr/lib/hadoop2/lib/native:/instantclient_12_2\nyarn.resourcemanager.app.timeout.minutes=720",
+                "use_hadoop2": true
+            },
+            "label": [
+                "senthil-to-delete",
+                "adpts-1151-testing"
+            ],
+            "presto_settings": {
+                "custom_config": null,
+                "enable_presto": false
+            },
+            "cluster_id": 106121,
+            "engine_config": {},
+            "zeppelin_interpreter_mode": "user"
+        }
+    }
+]
