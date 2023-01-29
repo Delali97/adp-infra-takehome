@@ -1,0 +1,35 @@
+2023-01-29 04:48:24,148 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.11.164:5001
+2023-01-29 04:48:24,148 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-29 04:48:24,150 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-29 04:48:24,339 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-29 04:48:24,443 INFO werkzeug MainThread :  * Debugger PIN: 605-976-563
+2023-01-29 04:49:11,567 INFO werkzeug Thread-2 : 127.0.0.1 - - [29/Jan/2023 04:49:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-29 04:50:45,947 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.11.164:5001
+2023-01-29 04:50:45,947 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-29 04:50:45,948 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-29 04:50:46,132 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-29 04:50:46,133 INFO werkzeug MainThread :  * Debugger PIN: 605-976-563
+2023-01-29 04:51:13,296 INFO werkzeug MainThread :  * Detected change in '/home/ubuntu/adp-infra-takehome/app.py', reloading
+2023-01-29 04:51:13,319 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-29 04:54:02,133 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.11.164:5001
+2023-01-29 04:54:02,134 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-29 04:54:02,135 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-29 04:54:02,314 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-29 04:54:02,315 INFO werkzeug MainThread :  * Debugger PIN: 605-976-563
+2023-01-29 04:55:57,869 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.11.164:5001
+2023-01-29 04:55:57,869 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-29 04:55:57,870 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-29 04:55:58,057 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-29 04:55:58,058 INFO werkzeug MainThread :  * Debugger PIN: 605-976-563

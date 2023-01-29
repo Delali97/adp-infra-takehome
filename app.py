@@ -26,15 +26,19 @@ def hello_world():
             if request.headers.get('Accept') == 'application/json':
                 app.logger.debug("request url:" + request.url + "Recieved an Accept Header='application/json'")
                 return jsonify({'message': 'Hello, World'}) 
-               
-        else :
+        else:
             app.logger.debug("request url:" + request.url + "Accept Header Is Empty")
-            return '<p>Hello, World</p>'
+            return '<p>Hello, World</p>'      
     elif request.method == 'POST':
         #This is an empty POST request
         app.logger.debug("request url:" + request.url + "Empty POST request")
         return jsonify({'message': 'Empty POST request'})
     
+@app.route('/client/<clientid>', methods=['GET'])
+def get_clentID(clientId):
+    app.logger.debug("Calling the Hello world request")
+
+
 if __name__ == '__main__':
     app.logger.debug("Starting App")
     port = int(os.environ.get('PORT', 5001))
